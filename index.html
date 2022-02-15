@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="phone-details">
+            <div class="images-section">
+                <img src="./images/product-1.png" alt="">
+            </div>
+            <div class="details">
+                <h3>iPhone 11 128GB Black</h3>
+            </div>
+            <div class="increasing-and-decreasing">
+                <button
+                    style="padding: 10px 10px; border-width: 2px; border-color: green;; background-color: aqua; font-size: 20px; color: black; cursor: pointer;"
+                    id="phone-minus">-</button>
+                <input id="phone-input" type="number" value="1">
+                <button
+                    style="padding: 10px 10px; border-width: 2px; border-color: green;; background-color: aqua; font-size: 20px; color: black; cursor: pointer;"
+                    id="phone-plus">+</button>
+            </div>
+            <div class="numbers-first">
+                <p>$<span id="phone-price">1219</span></p>
+            </div>
+        </section>
+        <section class="casing">
+            <div class="casing-images">
+                <img src="./images/product-2.png" alt="">
+            </div>
+            <div class="casing-details">
+                <h3>iPhone 11 Silicone Case - Black</h3>
+            </div>
+            <div class="increasing-casing-decreasing">
+                <button
+                    style="padding: 10px 10px; border-width: 2px; border-color: green;; background-color: aqua; font-size: 20px; color: black; cursor: pointer;"
+                    id="case-minus">-</button>
+                <input id="case-input" type="number" value="1">
+                <button
+                    style="padding: 10px 10px; border-width: 2px; border-color: green;; background-color: aqua; font-size: 20px; color: black; cursor: pointer;"
+                    id="case-plus">+</button>
+            </div>
+            <div class="numbers-second">
+                <p>$<span id="case-total">59</span>
+            </div>
+        </section>
+        <section class="subtotal">
+            <div class="details-total">
+                <h5>Subtotal:</h5>
+                <h5>Tax:</h5>
+                <h5>Total:</h5>
+            </div>
+            <div class="total-number">
+                <p>$<span id="sub-total">1,278</span></p>
+                <p>$<span id="tax-amount">0</span></p>
+                <p>$<span id="total-price">1,278</span></p>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

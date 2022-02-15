@@ -1,0 +1,38 @@
+.container{
+    width: 80%;
+   margin: auto;
+   background-color:aliceblue;
+   padding: 50px;
+}
+.phone-details{
+   display: grid;
+   grid-template-columns: repeat(4 ,1fr);
+   align-items: center;
+   background-color: #fff;
+   margin-bottom: 30px;
+}
+.images-section img{
+    width: 100%;
+}
+.casing{
+    display: grid;
+   grid-template-columns: repeat(4 ,1fr);
+   align-items: center;
+   background-color: #fff;
+}
+.casing-images img{
+    width: 100%;
+}
+.subtotal{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.details-total h5{
+    font-size: 20px;
+}
+.total-number{
+    text-align: right;
+}
+.total-number p{
+    font-size: 20px;
+}
